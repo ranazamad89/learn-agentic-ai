@@ -84,4 +84,6 @@ async def main(message: cl.Message):
         await msg.update()
         print(f"Error: {str(e)}")
 
+#  #chainlit run main.py   command to run code on powershell
+
 
