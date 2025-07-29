@@ -83,7 +83,14 @@ async def main(message: cl.Message):
         msg.content = f"Error: {str(e)}"
         await msg.update()
         print(f"Error: {str(e)}")
-
+# errors that i phase 
+                         # IMPORTANT POINTS 
+# open folder and cmd on that folder location
+#  pip install uv 
+# uv init run this if not the other command is    uv init --no-workspace
+# then write      code .    to run this folder on vscode 
+#  uv pip install chainlit openai-agents python-dotenv
 #  #chainlit run main.py   command to run code on powershell
+# this command installs all  modules that are used above 
 
 
